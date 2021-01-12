@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroA", "MicroA\MicroA.csproj", "{B4906E1F-4DD1-43AC-9245-32BDE6D30737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroB", "MicroB\MicroB.csproj", "{E40DA28C-E645-4371-89F6-148081155C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroCore", "MicroCore\MicroCore.csproj", "{40BC705E-35B4-495A-A6BF-CCD5E3BDE193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4906E1F-4DD1-43AC-9245-32BDE6D30737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4906E1F-4DD1-43AC-9245-32BDE6D30737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4906E1F-4DD1-43AC-9245-32BDE6D30737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4906E1F-4DD1-43AC-9245-32BDE6D30737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40DA28C-E645-4371-89F6-148081155C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40DA28C-E645-4371-89F6-148081155C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40DA28C-E645-4371-89F6-148081155C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40DA28C-E645-4371-89F6-148081155C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BC705E-35B4-495A-A6BF-CCD5E3BDE193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BC705E-35B4-495A-A6BF-CCD5E3BDE193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BC705E-35B4-495A-A6BF-CCD5E3BDE193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BC705E-35B4-495A-A6BF-CCD5E3BDE193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
