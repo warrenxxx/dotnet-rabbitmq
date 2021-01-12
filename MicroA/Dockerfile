@@ -2,12 +2,12 @@
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
 
-# Copy everything else and build
-COPY . ./
-RUN dotnet publish -c Release -o out
+COPY ./MicroA ./MicroA
+COPY ./MicroCore ./MicroCore
+RUN dotnet restore ./MicroA/MicroA.csproj
+
+RUN dotnet publish -c Release -o out  ./MicroA/MicroA.csproj
 
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet
